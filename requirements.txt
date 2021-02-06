@@ -1,8 +1,8 @@
-streamlit==0.75.0
 numpy==1.19.2
-nltk==3.5
-opencv_python
 tensorflow==2.0.0
+opencv_python_headless==4.5.1.48
+streamlit==0.75.0
 pandas==1.2.1
 joblib==1.0.0
+nltk==3.5
 Pillow==8.1.0
