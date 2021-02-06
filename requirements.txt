@@ -1,7 +1,8 @@
-joblib==1.0.0
-pandas==1.2.1
 streamlit==0.75.0
-tensorflow==2.0.0
-nltk==3.5
 numpy==1.19.2
+nltk==3.5
+opencv_python==4.5.1.48
+tensorflow==2.0.0
+pandas==1.2.1
+joblib==1.0.0
 Pillow==8.1.0
