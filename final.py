@@ -31,12 +31,10 @@ def create_model():
 
 def predict(image_1,image_2,model_tokenizer,predict_button = predict_button):
     start = time.process_time()
-    col1,col2 = st.beta_columns(2)
     if predict_button:
         if (image_1 is not None):
             start = time.process_time()  
             image_1 = Image.open(image_1).convert("RGB") #converting to 3 channels
-            
             image_1 = np.array(image_1)/255
             if image_2 is None:
                 image_2 = image_1
@@ -56,7 +54,7 @@ def predict(image_1,image_2,model_tokenizer,predict_button = predict_button):
 
 def predict_sample(model_tokenizer,folder = './test_images'):
     no_files = len(os.listdir(folder))
-    file = np.random.randint(1,no_files)
+    file = np.random.randint(1,no_files+1)
     file_path = os.path.join(folder,str(file))
     if len(os.listdir(file_path))==2:
         image_1 = os.path.join(file_path,os.listdir(file_path)[0])
