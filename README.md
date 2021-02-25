@@ -3,7 +3,8 @@ Medical imaging is the process of creating visual representations of the interio
 
 
 My detailed approach can be viewed in this [medium](https://towardsdatascience.com/medical-image-captioning-on-chest-x-rays-a43561a6871d) article. 
-The streamlit app can found [here](https://share.streamlit.io/ashishthomaschempolil/medical-image-captioning-on-chest-x-rays/main/final.py).
+
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/ashishthomaschempolil/medical-image-captioning-on-chest-x-rays/main/final.py)
 
 # Results
