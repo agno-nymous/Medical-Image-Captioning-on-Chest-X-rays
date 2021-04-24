@@ -7,6 +7,9 @@ My detailed approach can be viewed in this [medium](https://towardsdatascience.c
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/ashishthomaschempolil/medical-image-captioning-on-chest-x-rays/main/final.py)
 
+![Hnet-image](https://user-images.githubusercontent.com/12584994/115959582-de0aaf00-a4da-11eb-9695-319030527a4e.gif)
+
+
 # Results
 | Sl No. | Model | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4
 | - | --------------------- | ----------- | -- | -- | -- |
