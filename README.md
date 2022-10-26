@@ -26,3 +26,5 @@ Contents of the Code Files are given below :-
 | 3_Attention_Model_Medical_Report.ipynb    | Attention Model|
 | 4_Custom_Final_Model.ipynb   | Model based on [Q. Tang, F. Liu, T. Zhang, J. Jiang, Y. Zhang, Attention-guided Chained Context Aggregation for Semantic Segmentation (2020)](https://arxiv.org/abs/2002.12041v3) paper|
 | 5_Final.ipynb    |  	Function 1 - takes input images, returns predicted caption,Function 2 - takes input images returns BLEU scores (This file contains full data pipeline)|
+
+Tha code for web application is found in `final.py`
